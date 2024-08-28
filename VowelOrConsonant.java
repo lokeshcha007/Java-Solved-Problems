@@ -8,10 +8,11 @@ public class VowelOrConsonant {
 
         char character = scn.nextLine().toUpperCase().charAt(0);
         if (character == 'A' || character == 'E' || character == 'I' || character == 'O' || character == 'U') {
-            System.out.println("Given character is a Vowel");
+            System.out.println("Given character is a Vowel...");
         } else {
-            System.out.println("Given character is a Consonant");
+            System.out.println("Given character is a Consonant...");
         }
+
     }
 
 }
