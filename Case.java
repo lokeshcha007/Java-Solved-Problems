@@ -11,7 +11,7 @@ public class Case {
         } else if (value.charAt(0) >= 'A' && value.charAt(0) <= 'Z') {
             System.out.println("Given input is an Uppercase alphabet " + value);
         } else {
-            System.out.println("Enter the valud Charcater ! ");
+            System.out.println("Enter the valud Charcater! ");
         }
 
     }
