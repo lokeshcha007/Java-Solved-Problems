@@ -37,16 +37,15 @@ class CountNotes {
         }
         if (amt >= 1) {
             n1 = amt;
-
         }
-        System.out.println(n500);
-        System.out.println(n100);
-        System.out.println(n50);
-        System.out.println(n20);
-        System.out.println(n10);
-        System.out.println(n5);
-        System.out.println(n2);
-        System.out.println(n1);
+        System.out.println("Number of 500-rupee notes: " + n500);
+        System.out.println("Number of 100-rupee notes: " + n100);
+        System.out.println("Number of 50-rupee notes: " + n50);
+        System.out.println("Number of 20-rupee notes: " + n20);
+        System.out.println("Number of 10-rupee notes: " + n10);
+        System.out.println("Number of 5-rupee notes: " + n5);
+        System.out.println("Number of 2-rupee coins: " + n2);
+        System.out.println("Number of 1-rupee coins: " + n1);
 
     }
 }
